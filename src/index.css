@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "./fonts/fonts.css";
+
+@theme{
+    --color-primary-dark: #06070A;
+    --color-primary-light: #F2F2F2;
+    --color-primary-grey: #f1f1f1;
+    --color-accent-yellow: #FFC01D;
+    --color-accent-purple: #7231FF;
+
+    --font-nohemi: "nohemi", serif;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin:0; padding:0;
+    height: 100%;
+    font-family: "poppins", sans-serif;
+    color: var(--color-primary-dark);
+}
