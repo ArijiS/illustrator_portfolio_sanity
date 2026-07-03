@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'Illustrator-portfolio',
 
-  projectId: import.meta.env.projectId,
-  dataset: import.meta.env.dataset,
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID,
+  dataset: import.meta.env.VITE_SANITY_DATASET,
 
   plugins: [structureTool(), visionTool()],
 
