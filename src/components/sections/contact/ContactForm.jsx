@@ -21,7 +21,6 @@ const ContactForm = ( {idPrefix} ) => {
                 }
             }`);
             setContactImage(data);
-            console.log(data);
             }
             catch(err){
                 toast.error(err.message);

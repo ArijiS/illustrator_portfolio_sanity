@@ -3,12 +3,14 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 
+
+
 export default defineConfig({
   name: 'default',
   title: 'Illustrator-portfolio',
 
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID,
-  dataset: import.meta.env.VITE_SANITY_DATASET,
+  projectId: 'bt7zghof',
+  dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
 

@@ -33,7 +33,6 @@ const Gallery = () => {
           }`
         );
         setIllustrations(data);
-        console.log(data);
       }
       catch(error){
         toast.error(error.message);

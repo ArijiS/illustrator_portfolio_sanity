@@ -24,7 +24,6 @@ const About = () => {
           }`
         );
         setAboutImages(data);
-        console.log(data);
       }
       catch(error){
         toast.error( error.message );
